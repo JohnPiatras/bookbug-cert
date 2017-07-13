@@ -3,10 +3,23 @@
 <head>
   <title>Book Bug Certificate</title>
   <link href="styles/style.css" type="text/css" rel="stylesheet">
+  <link href="styles/print.css" type="text/css" rel="stylesheet" media="print">
 </head>
 
 <body>
+    <div id="form">
+      <form>
+        Library:
+        <input type="text" name="library" class="text-input" id="library-textbox"><br>
+        Type:
+         <select id="type">
+           <option value="first">First Session</option>
+          <option value="last">Last Session</option>
+         </select>
 
+      </form>
+      <button type="button" id="apply-bttn">Apply</button>
+    </div>
     <img src="images/top.jpg" id="border-top">
 
     <div id="container">
@@ -23,14 +36,14 @@
           <h1 class="centered">Well Done!</h1>
         </div>
 
-        <p class="centered">You joined in your first Book Bug session</p>
+        <p class="centered" id="type-text1">We are so glad that you came to Bookbug</p>
 
         <div id="content-left">
           <img src="images/bookbug.png" id="bookbug-img"/>
         </div>
         <div id="content-center">
-           <p class="left-aligned">at Renfrew Library!</p>
-           <p class="left-aligned extra-margin">We are so glad you could come!</p>
+           <p class="left-aligned" id="library-name">at Renfrew Library!</p>
+           <p class="left-aligned extra-margin" id="type-text2">Good luck on your next adventure!</p>
            <div id="signdate">
               <img id="booktrustlogo-img" src="images/booktrust-logo.jpg"/>
               <p class="left-aligned">Signed:</p>
@@ -46,30 +59,8 @@
 
     <img src="images/bottom.jpg" id="border-bottom">
 
-  <!--<div id="container">
-    <img src="images/background.jpg" id="background">
-    <div id="content">
-
-      <div id="heading-left">
-        <img src="images/balloons.png" class="balloons-img"/>
-      </div>
-      <div id="heading-right">
-        <img src="images/balloons.png" class="balloons-img">
-      </div>
-      <div id="heading-center">
-        <h1 class="centered">Well Done!</h1>
-      </div>
-
-
-
-
-
-
-
-
-  </div>-->
 </body>
 
-
+<script src="scripts/main.js"></script>
 
 </html>
