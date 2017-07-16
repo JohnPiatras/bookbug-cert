@@ -1,0 +1,137 @@
+* {
+  border: 1px solid white;
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: red;
+  text-align: left;
+
+}
+
+body {
+
+}
+
+#form {
+  margin-left: 10cm;
+  width: 7cm;
+  border: 1px solid black;
+}
+
+#form * {
+  color: black;
+}
+
+@media print {
+  #form {
+    display: none;
+  }
+}
+
+#apply-bttn {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.text-input {
+  border: 1px solid black;
+}
+
+#border-top {
+  width: 28.4cm;
+  display: block;
+}
+
+#border-bottom {
+  width: 28.4cm;
+  display: block;
+}
+
+#border-left {
+  float: left;
+  height: 14cm;
+}
+
+#border-right {
+  float :right;
+  height: 14cm;
+}
+
+#container {
+  width: 28.4cm;
+  height: 14.0cm;
+}
+
+#heading-left {
+  float: left;
+}
+
+#heading-center {
+  margin-bottom: 2.6cm;
+  margin-top: 0.6cm;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+#heading-right {
+float: right;
+}
+
+#type-text1 {
+  width: 15cm;
+  margin-bottom: 0.4cm;
+
+  white-space: nowrap;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left-aligned {
+  margin-left: 8cm;
+  text-align: left;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+p {
+  font-size: 26pt;
+}
+
+#bookbug-img {
+  height: 7.0cm;
+}
+
+#booktrustlogo-img {
+  float: right;
+  height: 2.4cm;
+
+}
+
+.balloons-img {
+  height: 6.5cm;
+
+}
+
+#content-left {
+  float: left;
+}
+
+#content-center {
+  text-align: left;
+  margin-left: 2cm;
+}
+
+.extra-margin {
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+#signdate * {
+  font-size: 20pt;
+
+}
