@@ -13,12 +13,19 @@ body {
 }
 
 #form {
+  margin-left: 10cm;
+  width: 7cm;
   border: 1px solid black;
 }
 
 #form * {
   color: black;
+}
 
+@media print {
+  #form {
+    display: none;
+  }
 }
 
 #apply-bttn {
@@ -29,16 +36,6 @@ body {
 .text-input {
   border: 1px solid black;
 }
-
-#background {
-  z-index: -1;
-  width: 28.4cm;
-  height: 18cm;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
 
 #border-top {
   width: 28.4cm;
@@ -65,31 +62,27 @@ body {
   height: 14.0cm;
 }
 
-#inner-container {
-
-
-
-}
-
-
-
 #heading-left {
   float: left;
 }
 
 #heading-center {
-  margin-bottom: 1.7cm;
+  margin-bottom: 2.6cm;
   margin-top: 0.6cm;
-  margin-left: 3.8cm;
-  margin-right: 3.8cm;
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
-  /*border: 1px solid blue;*/
-
 }
 
 #heading-right {
-  float: right;
-  /*border: 1px solid blue;*/
+float: right;
+}
+
+#type-text1 {
+  width: 15cm;
+  margin-bottom: 0.4cm;
+
+  white-space: nowrap;
 }
 
 .centered {
@@ -106,32 +99,26 @@ h1 {
 }
 
 p {
-  /*margin: 50px;*/
   font-size: 26pt;
 }
 
 #bookbug-img {
-  height: 7.5cm;
+  height: 7.0cm;
 }
 
 #booktrustlogo-img {
   float: right;
-  height: 2.74cm;
-  margin-top: 0.3cm;
+  height: 2.4cm;
+
 }
 
 .balloons-img {
-  height: 5.0cm;
+  height: 6.5cm;
+
 }
 
 #content-left {
   float: left;
-}
-
-#column-right {
-  float: left;
-  width: 128px;
-  height: 270px;
 }
 
 #content-center {
@@ -146,5 +133,5 @@ p {
 
 #signdate * {
   font-size: 20pt;
-  margin-bottom: 0.5cm;
+
 }

@@ -1,6 +1,10 @@
 var apply_bttn = document.getElementById('apply-bttn');
 
 apply_bttn.onclick = function () {
+  apply_settings();
+}
+
+function apply_settings() {
   var lib_txtbox = document.getElementById("library-textbox");
   var lib_name = document.getElementById('library-name');
   lib_name.textContent = "at " + lib_txtbox.value + " Library!";
